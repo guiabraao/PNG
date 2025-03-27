@@ -1,6 +1,6 @@
 import Header from "../../Components/Header/Header";
 import styles from './Sobre.module.css'
-import Selecao from '../../assets/Selecao.jpeg'
+import Selecao from '../../assets/selecao.jpeg'
 import back from '../../assets/backbtn.svg'
 import { Link } from 'react-router-dom'
 
