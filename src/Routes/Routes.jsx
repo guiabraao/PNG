@@ -6,6 +6,7 @@ import Gols from "../Pages/Estatisticas/Gols/Gols";
 import Assistencias from '../Pages/Estatisticas/Assistencias/Assist';
 import Regulamento from '../Pages/Regulamento/Regulamento'
 import Totw from '../Pages/TOTW/Totw'
+import Votacao from "../Pages/TOTW/Votacao/Votacao";
 import Classico from "../Pages/Classico/Classico";
 import Eventos from '../Pages/Eventos/Eventos'
 import Sobre from '../Pages/Sobre/Sobre'
@@ -40,6 +41,7 @@ function AppRouter()  {
             <Route path='/eventos' element={ <Eventos /> } ></Route>
 
             <Route path='/totw' element={ <Totw /> } ></Route>
+            <Route path='/votacao' element={ <Votacao /> } ></Route>
 
             <Route path='/playoff' element={ <Playoff /> } ></Route>
             <Route path='/playoffClassifi' element={ <Classifi /> } ></Route>

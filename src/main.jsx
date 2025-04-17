@@ -14,6 +14,8 @@ import Regulamento from './Pages/Regulamento/Regulamento.jsx'
 import Totw from './Pages/TOTW/Totw.jsx'
 import Eventos from './Pages/Eventos/Eventos.jsx'
 import Sobre from './Pages/Sobre/Sobre.jsx'
+import Votacao from './Pages/TOTW/Votacao/Votacao.jsx'
+import Resultado from './Pages/TOTW/Resultado/Resultado.jsx'
 
 //Classico
 import Classico from './Pages/Classico/Classico.jsx'
@@ -43,6 +45,6 @@ import AppRouter from './Routes/Routes.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <App/>
+    <AppRouter/>
   </BrowserRouter>,
 )
