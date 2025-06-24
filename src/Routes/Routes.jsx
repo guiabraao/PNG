@@ -1,4 +1,5 @@
-import { Router, Routes, Route } from "react-router-dom";
+import { Router, Routes, Route, BrowserRouter } from "react-router-dom";
+import React, { useEffect } from "react";
 import Home from "../Pages/Home/Home";
 import Menu from "../Pages/Menu/Menu";
 import Estatisticas from "../Pages/Estatisticas/Estatisticas";
@@ -26,45 +27,54 @@ import Time3 from "../Pages/PlayOffs/Times/Time3/Time3"
 
 
 
-function AppRouter()  {
-    return(
-        <Routes>
 
-            <Route path='/' element={ <Home/>} ></Route>
+function AppRouter() {
 
-            <Route path='/menu' element={ <Menu/>} ></Route>
 
-            <Route path='/estatisticas' element={ <Estatisticas /> } ></Route>
-            <Route path='/artilhariaGeral' element={ <Gols /> } ></Route>
-            <Route path='/assistenciaGeral' element={ <Assistencias /> } ></Route>
 
-            <Route path='/eventos' element={ <Eventos /> } ></Route>
+    return (
 
-            <Route path='/totw' element={ <Totw /> } ></Route>
-            <Route path='/votacao' element={ <Votacao /> } ></Route>
+            
+            <Routes>
 
-            <Route path='/playoff' element={ <Playoff /> } ></Route>
-            <Route path='/playoffClassifi' element={ <Classifi /> } ></Route>
-            <Route path='/playoffFinal' element={ <Final /> } ></Route>
-            <Route path='/playoffGols' element={ <PlayoffGols /> } ></Route>
-            <Route path='/playoffAssist' element={ <PlayoffAssit /> } ></Route>
-            <Route path='/playoffPremiacao' element={ <Premiacao /> } ></Route>
-            <Route path='/playoffSelecao' element={ <SelecaoPlayoff /> } ></Route>
 
-            <Route path='/playoffTimes' element={ <Times /> } ></Route>
-            <Route path='/playoffTime1' element={ <Time1 /> } ></Route>
-            <Route path='/playoffTime2' element={ <Time2 /> } ></Route>
-            <Route path='/playoffTime3' element={ <Time3 /> } ></Route>
+                <Route path='/' element={<Home />} ></Route>
 
-            <Route path='/classico' element={ <Classico /> } ></Route>
-            <Route path='/classicoGalo' element={ <Galo /> } ></Route>
-            <Route path='/classicoCruzeiro' element={ <Cruzeiro /> } ></Route>
+                <Route path='/menu' element={<Menu />} ></Route>
 
-            <Route path='/regulamento' element={ <Regulamento /> } ></Route>
+                <Route path='/estatisticas' element={<Estatisticas />} ></Route>
+                <Route path='/artilhariaGeral' element={<Gols />} ></Route>
+                <Route path='/assistenciaGeral' element={<Assistencias />} ></Route>
 
-            <Route path='/sobre' element={ <Sobre /> } ></Route>
+                <Route path='/eventos' element={<Eventos />} ></Route>
 
-        </Routes>
+                <Route path='/totw' element={<Totw />} ></Route>
+                <Route path='/votacao' element={<Votacao />} ></Route>
+
+                <Route path='/playoff' element={<Playoff />} ></Route>
+                <Route path='/playoffClassifi' element={<Classifi />} ></Route>
+                <Route path='/playoffFinal' element={<Final />} ></Route>
+                <Route path='/playoffGols' element={<PlayoffGols />} ></Route>
+                <Route path='/playoffAssist' element={<PlayoffAssit />} ></Route>
+                <Route path='/playoffPremiacao' element={<Premiacao />} ></Route>
+                <Route path='/playoffSelecao' element={<SelecaoPlayoff />} ></Route>
+
+                <Route path='/playoffTimes' element={<Times />} ></Route>
+                <Route path='/playoffTime1' element={<Time1 />} ></Route>
+                <Route path='/playoffTime2' element={<Time2 />} ></Route>
+                <Route path='/playoffTime3' element={<Time3 />} ></Route>
+
+                <Route path='/classico' element={<Classico />} ></Route>
+                <Route path='/classicoGalo' element={<Galo />} ></Route>
+                <Route path='/classicoCruzeiro' element={<Cruzeiro />} ></Route>
+
+                <Route path='/regulamento' element={<Regulamento />} ></Route>
+
+                <Route path='/sobre' element={<Sobre />} ></Route>
+
+            </Routes>
+
+
     )
 }
 

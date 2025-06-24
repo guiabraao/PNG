@@ -40,11 +40,12 @@ import Premiacao from './Pages/PlayOffs/Premiacao/Premiacao.jsx'
 import Card from './Components/Card/Card.jsx'
 import Header from './Components/Header/Header.jsx'
 import AppRouter from './Routes/Routes.jsx';
-
+import ScrollToTop from './Components/Scroll/ScrollToTop.jsx';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
+  <ScrollToTop/>
     <AppRouter/>
   </BrowserRouter>,
 )

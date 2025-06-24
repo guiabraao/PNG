@@ -1,40 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", serif;;
+    font-family: "Montserrat", serif;
+    ;
 }
 
 
-.main{
+.main {
     clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 50%);
     background-color: #044800;
     height: 81.4vh;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.64);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.64);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.64);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.64);
 }
 
 
-.headerHome button{
+.headerHome button {
     background-color: transparent;
     cursor: pointer;
 }
 
-.headerHome button img{
+.headerHome button img {
     width: 70%;
 }
 
-.headerHome{
+.headerHome {
     display: flex;
     justify-content: start;
     height: 10vh;
     z-index: 1;
 }
 
-.containerHome{
+.containerHome {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -45,21 +46,21 @@
     top: 150px;
 }
 
-.menuBox img{
+.menuBox img {
     width: 310px;
     height: 92px;
     border-radius: 20px;
-    box-shadow: 10px 9px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 10px 9px 5px 0px rgba(0, 0, 0, 0.4);
     cursor: pointer;
 }
 
-.menuBox{
+.menuBox {
     margin-bottom: 4rem;
     display: inline-block;
     position: relative;
 }
 
-.imgBox{
+.imgBox {
     position: absolute;
     top: 40px;
     right: 20px;
@@ -67,44 +68,44 @@
     font-weight: 800;
 }
 
-.containerHomeTop{
+.containerHomeTop {
     display: flex;
     justify-content: flex-end;
 }
 
 
-.containerHomeTop img{
+.containerHomeTop img {
     width: 60%;
 }
 
-.containerBottom{
+.containerBottom {
     display: flex;
     flex-direction: column;
     color: white;
 }
 
-.containerBottomBox{
+.containerBottomBox {
     margin-left: 1rem;
 }
 
-.containerBottom h3{
+.containerBottom h3 {
     font-size: 18pt;
 }
 
-.containerBottom p{
+.containerBottom p {
     font-size: 14pt;
 }
 
-.containerBottom button{
+.containerBottom button {
     margin-top: 0.5rem;
     padding: 10px;
 }
 
-.containerBottom button img{
+.containerBottom button img {
     width: 40%;
 }
 
-.bottom{
+.bottom {
     height: 20vh;
     display: flex;
     justify-content: end;
@@ -113,21 +114,28 @@
 
 }
 
-.bottom img{
+.bottom img {
     width: 8%;
 }
 
-.btnEntrar{
+.btnEntrar {
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 26rem;
 }
 
-h6{
+h6 {
     margin-top: 1rem;
 }
 
-
-
-
-
+@media (max-width: 500px) {
+    .main {
+        background-image: url(../../assets/homeBack.png);
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        clip-path: none;
+    }
+}

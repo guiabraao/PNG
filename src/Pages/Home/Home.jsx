@@ -6,10 +6,11 @@ import { Link , useNavigate} from "react-router-dom"
 
 
 
+
 function Home() {
 
     const navigate = useNavigate()
-    
+
 
     return (
 
@@ -17,12 +18,12 @@ function Home() {
             <div className={styles.main}></div>
             <div className={styles.containerHome}>
                 <div className={styles.containerHomeTop}>
-                    <img src={Logo} />
+                    {/* <img src={Logo} /> */}
                 </div>
                 <div className={styles.containerBottom}>
                     <div className={styles.containerBottomBox}>
-                        <h3>Fala, Jogador!</h3>
-                        <p>Entre e fique por <br /> dentro de tudo sobre <br /> a PNG!</p>
+                        {/* <h3>Fala, Jogador!</h3>
+                        <p>Entre e fique por <br /> dentro de tudo sobre <br /> a PNG!</p> */}
                     </div>
                     <div className={styles.btnEntrar}>
                         <div className={styles.menuBox}>
