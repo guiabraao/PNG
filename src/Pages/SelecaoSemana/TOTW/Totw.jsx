@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import styles from "./Totw.module.css";
-import back from '../../assets/backbtn.svg'
-import Logo from '../../assets/logoPNG.png'
-import Campo from '../../assets/campo.jpg'
+import back from '../../../assets/backbtn.svg'
+import Logo from '../../../assets/logoPNG.png'
+import Campo from '../../../assets/campo.jpg'
 import { Link } from "react-router-dom";
-import Header from "../../Components/Header/Header";
+import Header from "../../../Components/Header/Header";
 
 function Totw() {
 
@@ -25,7 +25,7 @@ function Totw() {
             <Header />
 
             <div className={styles.topEst}>
-                <Link to='/menu'><img src={back} /></Link>
+                <Link to='/selecaoMenu'><img src={back} /></Link>
             </div>
 
             <h2>Seleção da Semana</h2>

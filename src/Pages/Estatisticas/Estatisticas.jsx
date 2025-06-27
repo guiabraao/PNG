@@ -10,18 +10,18 @@ function Estatisticas() {
     return (
         <>
             <Header />
-            <div className={styles.topEst}>
+            <div className={styles.topEst} data-aos="zoom-in">
                 <Link to='/menu'><img src={back} /></Link>
             </div>
             <div className={styles.containerEst}>
-                <h2>Estatisticas</h2>
-                <div className={styles.menuBox}>
+                <h2 data-aos="zoom-in">Estatisticas</h2>
+                <div className={styles.menuBox} data-aos="fade-up">
                     <Link to='/artilhariaGeral'><img src={Rayo} /></Link>
                     <div className={styles.imgBox}>
                         <p>Gols</p>
                     </div>
                 </div>
-                <div className={styles.menuBox}>
+                <div className={styles.menuBox} data-aos="fade-up">
                     <Link to='/assistenciaGeral'><img src={KDB} /></Link>
                     <div className={styles.imgBox}>
                         <p>Assistencias</p>

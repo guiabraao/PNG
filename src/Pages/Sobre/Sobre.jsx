@@ -8,12 +8,12 @@ function Sobre(){
     return(
         <>
             <Header />
-            <div className={styles.topEst}>
+            <div className={styles.topEst} data-aos="fade-up">
                 <Link to='/menu'><img src={back}/></Link>
             </div>
-            <h2>Sobre Nós</h2>
+            <h2 data-aos="fade-up">Sobre Nós</h2>
             
-            <div className={styles.containerSobre}>
+            <div className={styles.containerSobre} data-aos="fade-up">
                 <div className={styles.sobreBox}>
                     <p>A Pelada Nova Geração (PNG) não é apenas um jogo de futebol, é uma tradição! Todos os sábados, às 13h, no Jara, a bola rola com muita resenha, jogadas de craque e aquele clima de amizade que só a PNG tem.</p> <br />
                     <p>Aqui, o futebol vai muito além das quatro linhas. Depois do apito final, a resenha continua com aquele churrasco de respeito, boas risadas e histórias que ficam para sempre. Seja no toque de bola refinado, nos lances de efeito ou na resenha pós-jogo, a PNG é sinônimo de diversão e companheirismo. </p> <br />

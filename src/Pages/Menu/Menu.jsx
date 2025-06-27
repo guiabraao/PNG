@@ -12,13 +12,14 @@ import Romario from '../../assets/romario.jpg'
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 function Menu() {
 
     useEffect(() => {
         AOS.init({
-            duration: 1000,
-            once: true,
+            duration: 2000,
+            once: false
         })
     }, [])
 
@@ -26,11 +27,11 @@ function Menu() {
 
     return (
         <>
-            <div className={styles.topBar} data-aos="zoom-in">
+            <div className={styles.topBar} data-aos="fade-down">
                 <img src={Logo} />
             </div>
-            <div className={styles.header}>
-                <div className={styles.caixaTxt}>
+            <div className={styles.header} data-aos="zoom-in">
+                <div className={styles.caixaTxt} data-aos="zoom-in">
                     <h2>FALA, JOGADOR!</h2>
                     <p>Seja Bem-Vindo a Pelada Nova Geração.</p> <br />
                     <p>Aqui você vai ficar por dentro de tudo que acontece na melhor pelada do Jara!</p>
@@ -40,7 +41,7 @@ function Menu() {
 
             <div className={styles.containerMenu} >
                 <div className={styles.menuBox} data-aos="fade-up">
-                    <Link to='/totw'><img src={Ronaldinho} /></Link>
+                    <Link to='/selecaoMenu'><img src={Ronaldinho} /></Link>
                     <div className={styles.imgBox}>
                         <p>Seleção da semana</p>
                     </div>

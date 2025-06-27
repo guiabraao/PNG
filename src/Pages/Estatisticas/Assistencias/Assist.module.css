@@ -33,21 +33,25 @@ h2{
     margin-bottom: 5rem;
 }
 
-
 .assistBox table tr td{
     text-align: left;
-    padding: 10px;
-    border: 2px solid;
-    border-color: #133511;
+    padding: 15px;
     color: white;
     background-color: #2d502b;
+    box-shadow: 0px 0px 28px 4px rgba(24, 148, 2, 0.75);
+    -webkit-box-shadow: 0px 0px 28px 4px rgba(24, 148, 2, 0.75);
+    -moz-box-shadow: 0px 0px 28px 4px rgba(24, 148, 2, 0.75);
 }
 
 .assistBox table{
-   border-collapse: collapse;
-   border-color: coral;
+   border-radius: 22px;
+    border-collapse: collapse;
+    border: 5px solid black;
     width: 300px;
     overflow: hidden;
+    box-shadow: 0px 0px 44px 6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 44px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 44px 6px rgba(0,0,0,0.75);
 }
 
 .assistBox thead tr td{

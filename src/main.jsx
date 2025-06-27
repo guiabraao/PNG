@@ -11,11 +11,8 @@ import Login from './Pages/Login/Login.jsx'
 import Home from './Pages/Home/Home.jsx'
 import Menu from './Pages/Menu/Menu.jsx'
 import Regulamento from './Pages/Regulamento/Regulamento.jsx'
-import Totw from './Pages/TOTW/Totw.jsx'
 import Eventos from './Pages/Eventos/Eventos.jsx'
 import Sobre from './Pages/Sobre/Sobre.jsx'
-import Votacao from './Pages/TOTW/Votacao/Votacao.jsx'
-import Resultado from './Pages/TOTW/Resultado/Resultado.jsx'
 
 //Classico
 import Classico from './Pages/Classico/Classico.jsx'
@@ -35,6 +32,9 @@ import PlayoffGols from './Pages/PlayOffs/PlayoffGols/Playoffgols.jsx'
 import PlayoffAssit from './Pages/PlayOffs/PlayoffAssist/PlayoffAssist.jsx'
 import Premiacao from './Pages/PlayOffs/Premiacao/Premiacao.jsx'
 
+//TOTW
+import SelecaoMenu from './Pages/SelecaoSemana/Selecao.jsx';
+
 
 //Components
 import Card from './Components/Card/Card.jsx'
@@ -46,6 +46,6 @@ import ScrollToTop from './Components/Scroll/ScrollToTop.jsx';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
   <ScrollToTop/>
-    <AppRouter/>
+    < AppRouter/>
   </BrowserRouter>,
 )

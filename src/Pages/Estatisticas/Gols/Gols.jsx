@@ -40,7 +40,7 @@ function Gols() {
                                 .map((jogador) => ( 
                                     <tr key={jogador.id}>
                                         <td>{jogador.nome}</td>
-                                        <td>{jogador.gols}</td>
+                                        <td id={styles.jogador}>{jogador.gols}</td>
                                     </tr>
                                 ))
                             }

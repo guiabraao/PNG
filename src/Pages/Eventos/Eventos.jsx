@@ -51,10 +51,10 @@ function Eventos() {
         <>
             <Header />
 
-            <div className={styles.topEst}>
+            <div className={styles.topEst} data-aos="zoom-in">
                 <Link to='/menu'><img src={back} /></Link>
             </div>
-            <div className={styles.headerEventos}>
+            <div className={styles.headerEventos} data-aos="zoom-in">
                 <h2>Eventos PNG</h2>
 
                 <p>Somente a dretoria pode <br /> fazer alterações nessa página!!</p>
@@ -63,7 +63,7 @@ function Eventos() {
 
             
 
-            <div className={styles.containerEventos}>
+            <div className={styles.containerEventos} data-aos="fade-up">
                 <div className={styles.eventoFormBox}>
                     <input
                         type="text"

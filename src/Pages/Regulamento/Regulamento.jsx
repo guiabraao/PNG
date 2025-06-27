@@ -9,14 +9,14 @@ function Regulamento(){
         <>
             <Header/>
             
-            <div className={styles.topEst}>
+            <div className={styles.topEst} data-aos="zoom-in">
                 <Link to='/menu'><img src={back}/></Link>
             </div>
             
-            <h2>Regulamento</h2>
+            <h2 data-aos="zoom-in">Regulamento</h2>
 
 
-            <div className={styles.containerReg}>
+            <div className={styles.containerReg} data-aos="fade-up">
                 <div className={styles.boxReg}>
                     <p>⚠️ ATENÇÃO ⚠️ </p> <br />
                     <p>     - Chegar no horário marcado! Estar lá 13:00 SEM ATRASO.</p> <br />

@@ -6,8 +6,9 @@ import Estatisticas from "../Pages/Estatisticas/Estatisticas";
 import Gols from "../Pages/Estatisticas/Gols/Gols";
 import Assistencias from '../Pages/Estatisticas/Assistencias/Assist';
 import Regulamento from '../Pages/Regulamento/Regulamento'
-import Totw from '../Pages/TOTW/Totw'
-import Votacao from "../Pages/TOTW/Votacao/Votacao";
+import SelecaoMenu from "../Pages/SelecaoSemana/Selecao";
+import Totw from '../Pages/SelecaoSemana/TOTW/Totw';
+import ContadorTotw from "../Pages/SelecaoSemana/Contador/Contador";
 import Classico from "../Pages/Classico/Classico";
 import Eventos from '../Pages/Eventos/Eventos'
 import Sobre from '../Pages/Sobre/Sobre'
@@ -48,8 +49,9 @@ function AppRouter() {
 
                 <Route path='/eventos' element={<Eventos />} ></Route>
 
+                <Route path="/selecaoMenu" element={<SelecaoMenu />} ></Route>
                 <Route path='/totw' element={<Totw />} ></Route>
-                <Route path='/votacao' element={<Votacao />} ></Route>
+                <Route path='/contadorTotw' element={<ContadorTotw />} ></Route>
 
                 <Route path='/playoff' element={<Playoff />} ></Route>
                 <Route path='/playoffClassifi' element={<Classifi />} ></Route>
