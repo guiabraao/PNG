@@ -9,9 +9,11 @@ import Lionel from '../../assets/lionel.jpg'
 import styles from './Menu.module.css'
 import Goats from '../../assets/goats.jpg'
 import Romario from '../../assets/romario.jpg'
+import Animation from '../../assets/animation.json'
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import AOS from 'aos'
+import Lottie from 'lottie-react'
 import 'aos/dist/aos.css';
 
 function Menu() {

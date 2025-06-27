@@ -20,6 +20,10 @@ h2{
 
 .headerEventos{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .topEst{
@@ -30,6 +34,14 @@ h2{
 
 .topEst img{
     width: 8%;
+}
+
+.headerEventos p{
+    font-weight: 500;
+    color: white;
+    padding: 0.5rem;
+    background-color: #133511;
+    max-width: 25ch;
 }
 
 .containerEventos{
