@@ -8,14 +8,14 @@ import { Link } from "react-router-dom";
 
 function ContadorTotw() {
 
-    const [contTotw, setcontTotw] = useState([]);
+    const [countTotw, setcountTotw] = useState([]);
 
     useEffect(() => {
         const buscarContadorTotw = async () => {
             const response = await fetch('https://raw.githubusercontent.com/guiabraao/apiClassificacao/refs/heads/main/apiArtilhariaPlayoffs');
             const data = await response.json();
             console.log("Dados recebidos:", data);
-            setcontTotw(data);
+            setcountTotw(data);
         };
         buscarContadorTotw();
     }, []);
@@ -40,11 +40,11 @@ function ContadorTotw() {
                         </thead>
                         <tbody>
                             {
-                                contTotw.sort((a, b) => b.contTotw - a.contTotw)
+                                countTotw.sort((a, b) => b.countTotw - a.countTotw)
                                     .map((jogador) => (
                                         <tr key={jogador.id}>
                                             <td>{jogador.nome}</td>
-                                            <td id={styles.jogador}>{jogador.contTotw}</td>
+                                            <td id={styles.jogador}>{jogador.countTotw}</td>
                                         </tr>
                                     ))
                             }
