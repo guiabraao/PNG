@@ -12,7 +12,7 @@ function ContadorTotw() {
 
     useEffect(() => {
         const buscarContadorTotw = async () => {
-            const response = await fetch('https://raw.githubusercontent.com/guiabraao/apiClassificacao/refs/heads/main/apiArtilhariaPlayoffs');
+            const response = await fetch('https://raw.githubusercontent.com/guiabraao/apiClassificacao/refs/heads/main/apiCountTotw');
             const data = await response.json();
             console.log("Dados recebidos:", data);
             setcountTotw(data);

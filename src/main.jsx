@@ -42,6 +42,8 @@ import Header from './Components/Header/Header.jsx'
 import AppRouter from './Routes/Routes.jsx';
 import ScrollToTop from './Components/Scroll/ScrollToTop.jsx';
 
+import Test from './Pages/Test/index.jsx'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
