@@ -132,9 +132,12 @@ h2{
     
 }
 
-
 .containeBoxTW td img{
     width: 120px;
+}
+
+.banco{
+    border-bottom: 5px solid #133511;
 }
 
 @media (max-width: 700px){

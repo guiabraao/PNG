@@ -43,46 +43,53 @@ function Menu() {
 
             <div className={styles.containerMenu} >
                 <div className={styles.menuBox} data-aos="fade-up">
-                    <Link to='/selecaoMenu'><img src={Ronaldinho} /></Link>
-                    <div className={styles.imgBox}>
-                        <p>Seleção da semana</p>
-                    </div>
+                    <Link to='/selecaoMenu'><img src={Ronaldinho} />
+                        <div className={styles.imgBox}>
+                            <p>Seleção da semana</p>
+                        </div>
+                    </Link>
                 </div>
                 <div className={styles.menuBox} data-aos="fade-up">
-                    <Link to='/estatisticas'><img src={Romario} /></Link>
-                    <div className={styles.imgBox}>
-                        <p>Estatisticas</p>
-                    </div>
+                    <Link to='/estatisticas'><img src={Romario} />
+                        <div className={styles.imgBox}>
+                            <p>Estatisticas</p>
+                        </div>
+                    </Link>
                 </div>
                 <div className={styles.menuBox} data-aos="fade-up">
-                    <Link to='/eventos'><img src={Neymar} /></Link>
-                    <div className={styles.imgBox}>
-                        <p>Eventos</p>
-                    </div>
+                    <Link to='/eventos'><img src={Neymar} />
+                        <div className={styles.imgBox}>
+                            <p>Eventos</p>
+                        </div>
+                    </Link>
                 </div>
                 <div className={styles.menuBox} data-aos="fade-up">
-                    <Link to='/playoff'><img src={Lionel} /></Link>
-                    <div className={styles.imgBox}>
-                        <p>Play-offs</p>
-                    </div>
+                    <Link to='/playoff'><img src={Lionel} />
+                        <div className={styles.imgBox}>
+                            <p>Play-offs</p>
+                        </div>
+                    </Link>
                 </div>
                 <div className={styles.menuBox} data-aos="fade-up">
-                    <Link to='/classico'><img src={Galo} /></Link>
-                    <div className={styles.imgBox}>
-                        <p>Classico</p>
-                    </div>
+                    <Link to='/classico'><img src={Galo} />
+                        <div className={styles.imgBox}>
+                            <p>Classico</p>
+                        </div>
+                    </Link>
                 </div>
                 <div className={styles.menuBox} data-aos="fade-up">
-                    <Link to='/regulamento'><img src={Palmer} /></Link>
-                    <div className={styles.imgBox}>
-                        <p>Regulamento</p>
-                    </div>
+                    <Link to='/regulamento'><img src={Palmer} />
+                        <div className={styles.imgBox}>
+                            <p>Regulamento</p>
+                        </div>
+                    </Link>
                 </div>
                 <div className={styles.menuBox} data-aos="fade-up">
-                    <Link to='/sobre'><img src={Goats} /></Link>
-                    <div className={styles.imgBox}>
-                        <p>Sobre Nós</p>
-                    </div>
+                    <Link to='/sobre'><img src={Goats} />
+                        <div className={styles.imgBox}>
+                            <p>Sobre Nós</p>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </>
