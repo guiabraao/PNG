@@ -29,7 +29,7 @@ function SelecaoMenu() {
                 <div className={styles.menuBox} data-aos="fade-up">
                     <Link to='/totw'><img src={yamal} /></Link>
                     <div className={styles.imgBox}>
-                        <p>Seleção da Semana 08</p>
+                        <p>Clássico 06/09</p>
                     </div>
                 </div>
                 <div className={styles.menuBox} data-aos="fade-up">
