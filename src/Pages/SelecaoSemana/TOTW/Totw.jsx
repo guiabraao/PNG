@@ -48,8 +48,8 @@ function Totw() {
                         {
                             cards.map((card) => (
                                 <tr key={card.atacantes}>
-                                    <td><img src={card.martins} className={styles.cardTW} /></td>
-                                    <td><img src={card.rafitz} className={styles.cardTW} /></td>
+                                    <td><img src={card.convidado} className={styles.cardTW} /></td>
+                                    <td><img src={card.convidado} className={styles.cardTW} /></td>
                                 </tr>
                             ))
                         }
@@ -58,8 +58,8 @@ function Totw() {
                         {
                             cards.map((card) => (
                                 <tr key={card.tuco}>
-                                    <td className={styles.pe}><img src={card.danilo} className={styles.cardTW} /></td>
-                                    <td className={styles.pd}><img src={card.kaio} className={styles.cardTW} /></td>
+                                    <td className={styles.pe}><img src={card.bello} className={styles.cardTW} /></td>
+                                    <td className={styles.pd}><img src={card.convidado} className={styles.cardTW} /></td>
                                 </tr>
                             ))
                         }
@@ -68,8 +68,8 @@ function Totw() {
                         {
                             cards.map((card) => (
                                 <tr key={card.tuco}>
-                                    <td><img src={card.pp} className={styles.cardTW} /></td>
-                                    <td><img src={card.joval} className={styles.cardTW} /></td>
+                                    <td><img src={card.guivb} className={styles.cardTW} /></td>
+                                    <td><img src={card.kaio} className={styles.cardTW} /></td>
                                 </tr>
                             ))
                         }
@@ -78,8 +78,8 @@ function Totw() {
                         {
                             cards.map((card) => (
                                 <tr key={card.tuco}>
-                                    <td className={styles.le}><img src={card.tuco} className={styles.cardTW} /></td>
-                                    <td className={styles.ld}><img src={card.guic} className={styles.cardTW} /></td>
+                                    <td className={styles.le}><img src={card.samuelv} className={styles.cardTW} /></td>
+                                    <td className={styles.ld}><img src={card.migalha} className={styles.cardTW} /></td>
                                 </tr>
                             ))
                         }
@@ -88,8 +88,8 @@ function Totw() {
                         {
                             cards.map((card) => (
                                 <tr key={card.tuco}>
-                                    <td><img src={card.gabirru} className={styles.cardTW} /></td>
-                                    <td><img src={card.aurelio} className={styles.cardTW} /></td>
+                                    <td><img src={card.convidado} className={styles.cardTW} /></td>
+                                    <td><img src={card.fajardo} className={styles.cardTW} /></td>
                                 </tr>
                             ))
                         }
